@@ -1,0 +1,90 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+
+}
+body{
+	font-size: 20px;
+	overflow-x:hidden;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+}
+
+header{
+	 background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../images/background.jpg");
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 height: 100vh;
+	}
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+
+}	
+.row{
+	max-width:1180px;
+	margin:0 auto;
+}	
+.logo{
+	height: 140px;
+	width:auto;
+	float:left;
+	margin-top:20px;
+
+}
+.main-nav{
+	float:right;  /*To move to right*/
+	margin-top:60px;
+}
+.main-nav li{
+display: inline-block; /* to show the list in single line*/
+list-style: none; 
+margin-left: 40px; /*increase the margin between the list */
+}
+.main-nav a{    
+	color: #fff;         /*color white */
+	text-decoration:none;/*remove the line */
+	text-transform: uppercase;/*change all in upper case*/
+	font-size:90%;
+	font-weight: 100px;
+}
+.main-content-header{
+	width: 1180px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+h1{
+	font-size: 240%;
+	color:fff;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s,border 0.2s,color 0.2s;
+}
+.btn-full{
+	background-color: transparent;
+	color: #bf55ec;
+	margin-right: 15px;
+	border:1px solid #bf55ec;
+}
+.btn-nav{
+	background-color: transparent;
+	color: #fff;
+	border:1px solid #fff;
+}
